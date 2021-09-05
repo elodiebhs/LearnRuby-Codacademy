@@ -24,3 +24,10 @@ puts reverse
 
 puts 'elodie'.upcase
 puts 'elodie'.downcase
+
+#multi-line comment
+
+=begin
+I'm a comment!
+I don't need any # symbols.
+=end

@@ -15,3 +15,7 @@ print "Oxnard Montalvo"
 #The '.length' Method
 length = "elodie".length
 puts length
+
+#The '.reverse' Method
+reverse = "elodie".reverse
+puts reverse

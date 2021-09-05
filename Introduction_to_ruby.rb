@@ -31,3 +31,13 @@ puts 'elodie'.downcase
 I'm a comment!
 I don't need any # symbols.
 =end
+
+#more maths
+sum = 13 + 379
+puts sum
+
+product = 923 * 15
+puts product
+
+quotient = 13209 / 17
+puts quotient

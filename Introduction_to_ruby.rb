@@ -19,3 +19,8 @@ puts length
 #The '.reverse' Method
 reverse = "elodie".reverse
 puts reverse
+
+#'.upcase' & '.downcase'
+
+puts 'elodie'.upcase
+puts 'elodie'.downcase

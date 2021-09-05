@@ -41,3 +41,9 @@ puts product
 
 quotient = 13209 / 17
 puts quotient
+
+#more string methods
+name = 'elodie'.downcase
+puts name
+puts name.reverse
+puts name.upcase

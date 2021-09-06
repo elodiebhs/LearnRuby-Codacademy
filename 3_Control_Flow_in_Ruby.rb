@@ -44,3 +44,9 @@ test_3 = true
 
 # test_4 = 100 == 1000
 test_4 = false
+
+#OR
+true || true # => true
+true || false # => true
+false || true # => true
+false || false # => false

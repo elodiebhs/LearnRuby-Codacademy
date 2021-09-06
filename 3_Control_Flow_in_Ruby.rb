@@ -19,3 +19,13 @@ elsif 1 < 2
 else
   print "don't know then"
 end
+
+#unless
+
+hungry = false
+
+unless hungry
+  puts "I'm writing Ruby programs!"
+else
+  puts "Time to eat!"
+end

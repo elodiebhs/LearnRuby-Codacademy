@@ -1,5 +1,4 @@
 #if statement
-
 if 1 < 2
   print "I'm getting printed because one is less than two!"
 end
@@ -21,7 +20,6 @@ else
 end
 
 #unless
-
 hungry = false
 
 unless hungry
@@ -29,3 +27,7 @@ unless hungry
 else
   puts "Time to eat!"
 end
+
+#Equal or Not
+is_true = 2 != 3
+is_false = 2 == 3

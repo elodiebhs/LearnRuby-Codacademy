@@ -5,3 +5,5 @@ puts "here is your statement:"
 text =  gets.chomp
 
 words = text.split #words = text.split
+
+frequencies = Hash.new(0)

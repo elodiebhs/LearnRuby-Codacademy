@@ -15,3 +15,7 @@ frequencies = frequencies.sort_by do |word, count|
 end
 
 frequencies.reverse!
+
+frequencies.each do |word, count|
+  puts word + " " + count.to_s
+end

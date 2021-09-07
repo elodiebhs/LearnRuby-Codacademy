@@ -4,6 +4,8 @@
 puts "here is your statement:"
 text =  gets.chomp
 
-words = text.split #words = text.split
+words = text.split #creates an array of the text
 
 frequencies = Hash.new(0)
+
+words.each { |word| frequencies[word] += 1 }

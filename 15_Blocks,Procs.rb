@@ -52,3 +52,7 @@ ints = floats.collect(&round_down)
 print ints
 #[1, 3, 0, 7, 11, 482]
 
+#.call method
+hi = Proc.new{puts"Hello!"}
+
+hi.call

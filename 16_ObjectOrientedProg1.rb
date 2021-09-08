@@ -9,3 +9,12 @@ class Person
 end
 
 matz = Person.new("Yukihiro")
+
+
+#Variable
+class MyClass
+  $my_variable = "Hello!"
+  #to make it global we use $
+end
+
+puts $my_variable

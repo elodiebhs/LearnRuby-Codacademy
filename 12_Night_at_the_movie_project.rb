@@ -37,7 +37,7 @@ when "display"
   movies.each do |title, rating| 
     puts "#{title}: #{rating}"
   end
-  hen "delete"
+when "delete"
   puts "What movie would you like to delete? "
   title = gets.chomp
   if movies[title.to_sym].nil? 

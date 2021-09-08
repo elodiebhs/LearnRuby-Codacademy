@@ -41,3 +41,14 @@ yield_name("Eric") { |n| puts "My name is #{n}." }
 
 # Now call the method with your name!
 yield_name("Elodie") { |n| puts "My name is #{n}." }
+
+#Proc
+#With blocks, you have to write your code out each time you need it; with a proc, you write your code once and can use it many times!
+floats = [1.2, 3.45, 0.91, 7.727, 11.42, 482.911]
+
+round_down = Proc.new { |x| x.floor }
+
+ints = floats.collect(&round_down)
+print ints
+#[1, 3, 0, 7, 11, 482]
+

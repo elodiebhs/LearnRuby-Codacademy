@@ -11,13 +11,14 @@ puts "-- Type 'delete' to delete a movie."
 
 choice = gets.chomp
 
-ase choice
+
+case choice
 when "add"
   puts "What movie would you like to add? "
-  title = gets.chomp
+  title = gets.chomp.to_sym
   puts "What rating does the movie have? "
-  rating = gets.chomp
-  movies[title.to_s] = rating
+  rating = gets.chomp.to_i
+  movies[title] = rating
 when "update"
   puts "Updated!"
 when "display"

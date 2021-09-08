@@ -34,9 +34,17 @@ when "update"
     movies[title.to_sym] = rating.to_i
   end
 when "display"
-  puts "Movies!"
-when "delete"
-  puts "Deleted!"
+  movies.each do |title, rating| 
+    puts "#{title}: #{rating}"
+  end
+  hen "delete"
+  puts "What movie would you like to delete? "
+  title = gets.chomp
+  if movies[title.to_sym].nil? 
+    puts "That movie does not exist."
+  else
+    movies.delete(title.to_sym)
+  end
 else
   puts "Error!"
 end

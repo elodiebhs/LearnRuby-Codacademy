@@ -18,3 +18,13 @@ class MyClass
 end
 
 puts $my_variable
+
+#Inheritance Syntax
+class Application
+  def initialize(name)
+    @name = name
+  end
+end
+
+class MyApp < Application #MyApp inherits from Application
+end

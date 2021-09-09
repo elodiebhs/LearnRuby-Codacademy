@@ -11,5 +11,6 @@ class Computer
   
     def create(filename)
     time=Time.now
+    @files[filname]=time
     end
   end

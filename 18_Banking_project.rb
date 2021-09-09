@@ -5,13 +5,21 @@ class Account
     @name = name
     @balance = balance
   end
+  
+  public
+  def display_balance(pin_number)
+    if pin_number == @pin
+      puts "Balance: $#{@balance}."
+    else
+      puts pin_error
+    end
+  end
 
   private
   def pin
-  @pin=1234
+    @pin = 1234
   end
-
-  private def pin_error
-  return "Access denied: incorrect PIN."
-  end
+  def pin_error
+    return "Access denied: incorrect PIN."
+  end 
 end

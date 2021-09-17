@@ -14,11 +14,13 @@ class Account
       puts pin_error
     end
   end
+
+  
   
   def withdraw(pin_number,amount)
     if pin_number == @pin
       @balance -= amount
-      puts "Withdrew #{amount}."
+      puts "Withdrew #{amount}." 
     else
       puts pin_error
     end

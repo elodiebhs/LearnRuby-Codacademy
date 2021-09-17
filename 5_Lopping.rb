@@ -18,6 +18,7 @@ end
 9
 10
 
+
 #The 'For' Loop
 for num in 1..15
   puts num
@@ -43,6 +44,7 @@ loop do
   print "#{i}"
  break if i <= 0
 end
+def
 
 #The .each Iterator
 

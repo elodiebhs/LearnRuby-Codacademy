@@ -22,7 +22,7 @@ puts $my_variable
 #Inheritance Syntax
 class Application
   def initialize(name)
-    @name = name
+@name = name
   end
 end
 

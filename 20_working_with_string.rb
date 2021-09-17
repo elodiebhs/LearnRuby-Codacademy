@@ -20,4 +20,4 @@ string.to_f
 
 string ="52"
 string.to_i
-#  => 52 
+#  => 52

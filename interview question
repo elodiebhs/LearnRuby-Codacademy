@@ -1,0 +1,26 @@
+Basic Object Oriented programming: construct a book class, library class, how would we compare two book objects? How would we compare two library objects? How would we search libraries? etc.
+
+Hackerrank technical assessment
+
+practice medium pace questions in hackerrank.
+
+design a database for students, teachers and courses. Also, write a query to print all the students in a teacher's class.
+
+Name different kinds of design patterns
+How to create an instance of an object in C# from an assembly, without access to the code
+Q: Design Conway game of Life -OOP Design
+Q: Count number of island in matrix board
+
+Implement a Triangle class
+
+How would you return the max value of a list of shapes
+
+what is a RESTful API
+
+how to design YouTube
+
+What would the schema look like for database containing doctors and patients
+
+How would you query this schema to determine all of a doctors patients?
+
+Create different shape classes that computed area, given a key value for that shape

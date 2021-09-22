@@ -38,6 +38,7 @@ end
 def greeter(name)
   return "Hello, #{name}!"
 end
+greeter ("elo")
 
 def by_three?(num)
   if num % 3 == 0
